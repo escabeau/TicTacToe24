@@ -3,13 +3,11 @@
 
 #include <string>
 
-// Structure Player
 struct Player {
     std::string name;
     char symbol;
 };
 
-// Fonction pour créer un joueur
-Player create_player();
+Player create_player(char forbidden_symbol = '\0');
 
-#endif // PLAYER_H
+#endif 
