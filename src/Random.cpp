@@ -1,9 +1,8 @@
 #include <array>
 #include <cstdlib>
 #include <ctime>
-#include <cctype> // Pour std::isdigit
+#include <cctype> 
 
-// Initialise le générateur de nombres aléatoires
 void initialize_random() {
     static bool initialized = false;
     if (!initialized) {
@@ -15,10 +14,10 @@ void initialize_random() {
 int get_random_move(const std::array<char, 9>& board) {
     initialize_random();
     while (true) {
-        int move = rand() % 9; // Génère un index entre 0 et 8
-        // Vérifie que la case est valide (contient un chiffre)
+        int move = rand() % 9; 
+    
         if (std::isdigit(board[move])) {
-            return move + 1; // Retourne une case valide
+            return move + 1; 
         }
     }
 }
