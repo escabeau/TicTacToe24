@@ -10,4 +10,4 @@ Projet de fin de semestre : TicTacToe
   
 - **Noms uniques** : Je n'ai pas réussi à empêcher l'utilisation du même nom, mais en même temps, les homonymes existent...
 
-- **SFML interface** : Tentative d'interface graphique, mais galère avec les événements. Je n'ai pas réussi. Je vais essayer avec une autre lib.
+- **SFML interface** : Tentative d'interface graphique, mais galère avec les événements. Je n'ai pas réussi. Je vais essayer avec une autre lib. UPDATE Raylib ressemble un peu à du js donc plus facile je trouve (quand même pas réussi à faire ce que je voulais)
